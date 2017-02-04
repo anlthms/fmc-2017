@@ -1,7 +1,7 @@
 ### Description
 
 - An attempt to use deep learning for the [Two Sigma Financial Modeling Challenge](https://www.kaggle.com/c/two-sigma-financial-modeling).
-- **The results do not look promising: a validation R score of -0.0022 after 4 epochs**.
+- **The results do not look promising: a validation R score of -0.0024 after 4 epochs**.
 
 ### Usage
 
@@ -33,7 +33,7 @@
 5. Clone this repository
 
     ```
-    git clone https://github.com/anlthms/fms-2017.git
+    git clone https://github.com/anlthms/fmc-2017.git
     cd fmc-2017
     ```
 6. Train a model and validate
