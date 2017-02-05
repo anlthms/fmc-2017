@@ -136,7 +136,7 @@ parser.add_argument('-quick', '--quick_mode', action="store_true",
 parser.add_argument('-ts', '--time_steps', default=7,
                     help='number of time steps')
 args = parser.parse_args()
-dataset = Fin(nlags=args.time_steps, path=args.data_dir, quick=args.quick_mode)
+dataset = Fin(nlags=int(args.time_steps), path=args.data_dir, quick=args.quick_mode)
 
 train = dataset.train_iter
 valid = dataset.valid_iter
